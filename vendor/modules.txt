@@ -1,0 +1,7 @@
+# github.com/garyburd/redigo v1.6.4
+## explicit; go 1.17
+# github.com/go-sql-driver/mysql v1.7.1
+## explicit; go 1.13
+github.com/go-sql-driver/mysql
+# github.com/gomodule/redigo v1.8.9
+## explicit; go 1.16
