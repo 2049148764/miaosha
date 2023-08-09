@@ -9,6 +9,8 @@ import (
 var successNum int32
 var failNum int32
 func init(){
+	fmt.Println("开始初始化")
+	fmt.Println("开始初始化")
 	err := model.NewClient()
 	if err != nil {
 		fmt.Print("数据库连接失败"+err.Error())
