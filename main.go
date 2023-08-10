@@ -9,6 +9,7 @@ import (
 var successNum int32
 var failNum int32
 func init(){
+	return
 	fmt.Println("开始初始化")
 	fmt.Println("开始初始化")
 	fmt.Println("开始初始化")
@@ -32,6 +33,8 @@ func main(){
 }
 
 func handleReq(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("开始抢苹果")
+	return
 	goodsName := "苹果"
 	err := controller.SoldGoods(goodsName)
 	if err != nil {
